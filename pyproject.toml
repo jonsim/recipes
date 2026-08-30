@@ -1,0 +1,12 @@
+[project]
+name = "jon-recipes"
+version = "0.1.0"
+description = "A database of recipes in cooklang format"
+readme = "README.md"
+authors = [
+    { name = "Jonathan Simmonds", email = "jon@jonsim.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pre-commit>=4.6.2",
+]

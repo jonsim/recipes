@@ -1,0 +1,24 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      - id: end-of-file-fixer
+        types_or: [text]
+      - id: trailing-whitespace
+        types_or: [text]
+      - id: mixed-line-ending
+        args: [--fix=lf]
+        types_or: [text]
+
+  - repo: local
+    hooks:
+      - id: cook-validate
+        name: cook doctor validate
+        language: system
+        entry: cook doctor validate --strict
+        pass_filenames: false
+        types_or: [text]
+        files: \.cook$
