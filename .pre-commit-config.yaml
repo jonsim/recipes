@@ -22,3 +22,10 @@ repos:
         pass_filenames: false
         types_or: [text]
         files: \.cook$
+      - id: cook-format
+        name: cook-format
+        language: system
+        entry: cook-format --fix
+        pass_filenames: false
+        types_or: [text]
+        files: \.cook$

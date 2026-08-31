@@ -1,0 +1,60 @@
+check_links = true
+
+[metadata]
+strict = true
+style = "yaml"
+additional_permitted_fields = [
+    "yields",
+]
+
+    [metadata.title]
+    mandatory = true
+
+    [metadata.servings]
+    mandatory = true
+
+    [metadata.tags]
+    mandatory = false
+    permitted_values = []
+
+    [metadata.diet]
+    mandatory = false
+    permitted_values = []
+
+[units]
+system = "metric"
+forbid_unknown_units = true
+number_format = "decimal"
+additional_permitted_units = [
+    "tsp",
+    "tbsp",
+    "pinch",
+    "sprig",
+    "clove",
+    "tin",
+    "slice",
+]
+
+    [units.replace]
+    gram = "g"
+    grams = "g"
+    milliliter = "ml"
+    millilitres = "ml"
+    kilogram = "kg"
+    kilograms = "kg"
+    min = "minutes"
+    mins = "minutes"
+    minute = "minutes"
+    hr = "hours"
+    teaspoon = "tsp"
+    teaspoons = "tsp"
+    "dessert spoon" = "dsp"
+    "dessert spoons" = "dsp"
+    tablespoon = "tbsp"
+    tablespoons = "tbsp"
+    can = "tin"
+    pinches = "pinch"
+    sprigs = "sprig"
+    tins = "tin"
+    slices = "slice"
+    cloves = "clove"

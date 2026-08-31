@@ -15,6 +15,7 @@ My [cooklang](https://cooklang.org/) recipe database.
 
 ## Contributing
 - Install [CookCLI](https://github.com/cooklang/CookCLI).
+- Install [cook-format](https://github.com/jonsim/cook-format).
 - Install [uv](https://github.com/astral-sh/uv).
 - Clone the repository and run `uv sync`.
 - Install pre-commit hooks: `uv run pre-commit install`.
