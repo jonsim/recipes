@@ -21,6 +21,10 @@ additional_permitted_fields = [
     mandatory = false
     permitted_values = []
 
+    [metadata.course]
+    mandatory = false
+    permitted_values = ["Breakfast", "Brunch", "Lunch", "Dinner", "Supper"]
+
 [units]
 system = "metric"
 forbid_unknown_units = true
