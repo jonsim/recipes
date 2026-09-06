@@ -13,6 +13,21 @@ additional_permitted_fields = [
     [metadata.servings]
     mandatory = true
 
+    [metadata.duration]
+    forbidden = true
+
+    [metadata."time required"]
+    forbidden = true
+
+    [metadata.time]
+    forbidden = true
+
+    #[metadata."prep time"]
+    #mandatory = true
+
+    #[metadata."cook time"]
+    #mandatory = true
+
     [metadata.tags]
     mandatory = false
     permitted_values = []
