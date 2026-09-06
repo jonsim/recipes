@@ -22,11 +22,11 @@ additional_permitted_fields = [
     [metadata.time]
     forbidden = true
 
-    #[metadata."prep time"]
-    #mandatory = true
+    [metadata."prep time"]
+    mandatory = true
 
-    #[metadata."cook time"]
-    #mandatory = true
+    [metadata."cook time"]
+    mandatory = true
 
     [metadata.tags]
     mandatory = false
