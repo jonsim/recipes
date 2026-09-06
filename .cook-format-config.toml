@@ -29,8 +29,8 @@ additional_permitted_fields = [
     mandatory = true
 
     [metadata.tags]
-    mandatory = false
-    permitted_values = []
+    mandatory = true
+    permitted_values = ["vegan", "vegetarian"]
 
     [metadata.diet]
     mandatory = false
